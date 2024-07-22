@@ -1,0 +1,154 @@
+body {
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line on smaller screens */
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+    font-size: xx-large;
+    transition: all 0.3s ease; /* Smooth transition for responsive changes */
+}
+
+.red {
+    background-color: #c23118;
+}
+
+.green {
+    background-color: #3ab30a;
+}
+
+.yellow {
+    background-color: #f9e745;
+}
+
+.purple {
+    background-color: #640a80;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        height: 80px;
+        width: 80px;
+        font-size: small;
+        margin: 1rem; /* Reduce margin for smaller screens */
+    }
+}
+body {
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line on smaller screens */
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+    font-size: xx-large;
+    transition: all 0.3s ease; /* Smooth transition for responsive changes */
+}
+
+.red {
+    background-color: #c23118;
+}
+
+.green {
+    background-color: #3ab30a;
+}
+
+.yellow {
+    background-color: #f9e745;
+}
+
+.purple {
+    background-color: #640a80;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        height: 80px;
+        width: 80px;
+        font-size: small;
+        margin: 1rem; /* Reduce margin for smaller screens */
+    }
+}
